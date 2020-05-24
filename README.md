@@ -1,3 +1,3 @@
 # todoo
 JS Todo List
-![Screenshot](demo.png)
+![Screenshot](demo.png "demo")
