@@ -1,0 +1,155 @@
+/* body {
+  font-family:
+  'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7em;
+}
+
+body > div {
+  width: 40rem; 
+  border: 1px solid rgb(0, 162, 255);
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  background-color: #d1ecff;
+} */
+
+body {
+  font-size: 1.5em;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans,
+  Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  line-height: 1.4;
+}
+
+.container {
+  width: 100%;
+  max-width: 100vh;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #333;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  overflow-y: auto;
+}
+
+input[type="text"] {
+  font-size: 1.2em;
+  width: 90%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 3px solid #333;
+}
+
+input[placeholder] {
+  text-align: center;
+}
+
+body div form,h1,p {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  opacity: 0.8;
+  color: indianred;
+}
+
+div ul {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.7em;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.delete-item {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+svg {
+  width: 64px;
+  height: 64px;
+}
+
+.empty-state {
+  text-align: center;
+}
+.delete-todo svg {
+  width: 30px;
+  height: 30px;
+  pointer-events: none;
+}
+
+.todo-list {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.todo-item {
+  margin-bottom: 10px;
+  margin-right: 40px;
+  width: 95%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.todo-item span {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.done span {
+  text-decoration: line-through;
+  color: indianred;
+  font-weight: normal;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.tick {
+  width: 30px;
+  height: 30px;
+  border: 3px solid indianred;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.tick::before {
+  content: '\2713';
+  font-size: 23px;
+  font-weight: bold;
+  display: none;
+  color: indianred;
+}
+
+.done .tick::before {
+  display: inline;
+}
+
+.delete-todo {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  opacity: 0.6;
+}
